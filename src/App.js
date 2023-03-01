@@ -32,10 +32,12 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <div className="App">
+    <><div className="App">
       <h1 className="Header">Characters</h1>
-    </div>
-    
+    </div><div className="Character">
+      <h1 classCharacter="Header">People</h1>
+
+      </div></>
   );
 }
 
