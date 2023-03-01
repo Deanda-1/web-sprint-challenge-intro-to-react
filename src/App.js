@@ -35,7 +35,7 @@ const App = () => {
     <><div className="App">
       <h1 className="Header">Characters</h1>
     </div><div className="Character">
-      <h1 classCharacter="Header">People</h1>
+      <h1 className="Header">People</h1>
 
       </div></>
   );
