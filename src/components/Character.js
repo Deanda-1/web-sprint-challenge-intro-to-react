@@ -1,6 +1,6 @@
 // Write your Character component here
-import React from 'React';
-import styled from 'styled-component';
+import React from 'react';
+import styled from 'styled-components';
 
 const StyledCharacterDiv = styled.div` 
     display: flex;

@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-
 const Styledlist = styled.div`
     display: flex;
     position: absolute;
