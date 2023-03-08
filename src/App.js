@@ -3,11 +3,11 @@ import axios from 'axios';
 import Button from './components/Button'
 
 const App = () => {
-  const [character, setCharacter] = useState()
+  const [characters, setCharacters] = useState()
   useEffect(() => {
     axios.get(`https://swapi.dev/api/people/`)
-    .then(res => setCharacter(res.data))
-    .catch(err => console.log(err))
+    .then(res => setCharacters(res.data))
+    .catch(err => console.err(err))
   }, [])
 
   
@@ -19,12 +19,12 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <><div className="App">
+    <div className="App">
       <h1 className="Header">Characters</h1>
+      <Button characters={characters}/>
     </div>
-    <div className="Character">
-      <h1 className="Header">Data</h1>
-      </div></>
+
+    
   );
 }
 
